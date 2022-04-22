@@ -1,5 +1,4 @@
 <?php 
- session_start();
  $identifier = 4;
  include("page_header.php");
  $account = $_SESSION["user_email"];
@@ -24,6 +23,8 @@ if ($data['Password'] == md5($password))
    
     if ($newpassword1 == $newpassword2)
     {
+       
+         
         $newencryptedpassword = md5($newpassword1);
          
         $query5 = "UPDATE user SET Password = '$newencryptedpassword' WHERE Email = '$account' ";
@@ -38,7 +39,7 @@ else echo "<script>alert('Current Password is Incorrect')</script>";
 
 ?>
 
-</div>
+            </div>
 </section>
         <section class="s6">
             <div class="main-container">

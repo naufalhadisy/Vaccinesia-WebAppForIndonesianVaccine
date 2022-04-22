@@ -20,7 +20,7 @@ include("page_header.php");
                                 <h1>Sinovac</h1>
                                 <p>All you need to know about <i>Sinovac</i> vaccine.</p>
                                 <div id="learnmore-button">
-                                    <a href="sinovac.php">LEARN MORE</a>
+                                    <a href="sinovac.html">LEARN MORE</a>
                                 </div>
                             </div>
                             <div class="hero-picture">
@@ -39,7 +39,7 @@ include("page_header.php");
                                 <h1>Astrazeneca</h1>
                                 <p>All you need to know about <i>Astrazeneca</i> vaccine.</p>
                                 <div id="learnmore-button">
-                                    <a href="astrazeneca.php">LEARN MORE</a>
+                                    <a href="astrazeneca.html">LEARN MORE</a>
                                 </div>
                             </div>
                             <div class="hero-picture">
